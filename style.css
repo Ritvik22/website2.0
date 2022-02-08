@@ -1,0 +1,121 @@
+
+h1{
+
+    color:black;
+    font-family: sans-serif;
+    /*margin-left:750px;*/
+    align-content: center;
+}
+
+p{
+
+    color:darkgray;
+    font-family: sans-serif;
+
+}
+
+h2{
+
+    color:black;
+    font-family: sans-serif;
+
+}
+
+body{
+
+    background-color: black;
+
+}
+
+/*.header * {
+
+   border:solid;
+
+}*/
+
+.header {
+
+    background-color:lightgrey;
+    
+   /* display: flex;
+    justify-content: space-between;*/
+
+}
+
+.menu {
+
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.menu{
+
+    margin-right: 50px;
+
+}
+
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.footer {
+
+    margin-top: 400;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.gemClicker {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+a:link {
+
+    color: white;
+
+}
+
+a:visited {
+
+    color: grey;
+
+}
+
+.item {
+
+    position: relative;
+
+}
+
+.item p {
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p {
+
+    opacity:1;
+
+}
+
+.item:hover img {
+
+opacity:0.33;
+
+}
